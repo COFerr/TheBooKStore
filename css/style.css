@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: whitesmoke;
+}
+*{
+  magin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.logo{
+  text-decoration: none;
+  color: black;
+}
+.logo:hover {
+	text-decoration: none;
+	color: gray;
+	}
+.container{
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.info{
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  color: gray;
+}
+
+.bookShow{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: "400px";
+}
+.bookShow .button{
+  padding: 5px;
+}
+
+.bookElement{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#bookDescription{
+  cursor: text;
+}
+#bookTitle{
+  cursor: text;
+}
+.fa-basket-shopping{
+  padding: 3px;
+}
+
+.carousel-filmes{
+  margin-top: 5px;
+  margin-bottom: 50px;
+}
+
+
+
+.box-film{
+  width: "100px";
+  height: "150px";
+}
+
+.bg-footer{
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}

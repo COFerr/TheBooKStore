@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>the book store</title>
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+  <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css"/>
+  <link href="css/owl.theme.default.min.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+  <script src="javascript/livros.js"></script>
+  <script src="javascript/jquery.min.js"></script>
+  <script src="javascript/owl.carousel.min.js"></script>
+
+  
+  <nav class = "navbar navbar-expand-lg" id= "header">
+    <a class = "navbar-brand" href = #">
+      <h3 class="logo"><a href = "#header" class="logo">TheBooKStore</h3>
+    </a>
+    <div class = "collapse navbar-collapse">
+      <ul class = "navbar-nav">
+        <li class = "navbar-item">
+          <a href = "#exatas" class = "nav-link"> Exatas</a>
+        </li>
+        <li class = "navbar-item">
+          <a href = "#humanas" class = "nav-link"> Humanas</a>
+        </li>
+        <li class = "navbar-item">
+          <a href = "#linguagens" class = "nav-link"> Linguagens</a>
+        </li>
+        <li class = "navbar-item">
+          <a href = "#footer" class = "nav-link"> Contatos</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <main>
+    <div class = "bookShow" id="bookShow">      
+      <div class = "container bookElement col-lg-4">
+        <label for="" id="bookTitle"></label>
+        <div class = "container bookElement col-lg-4" id="bookImg">
+        </div>
+        <div class="container bookElement col-lg-4" id="but">   
+        </div>
+      </div>
+      <div class="container bookElement col-lg-4">
+       <label for="" id="bookDescription"></label>
+      </div>
+      <div class = "container">
+        <h3 class = "info" id="info">Posicione o mouse sobre um livro para ver mais sobre ele.</h3>
+      </div>
+    </div>
+  </main>
+  
+  <div class = "buyThisBook container" id = "buyThisBook">
+  </div>
+  <div class="classificação">
+    <h4 id="exatas">Ciências exatas</h4>
+  </div>
+  <div class ="carousel-filmes">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book1.png" width = "100px" height = "300px" id="O Cálculo Com Geometria Analítica - Vol. 1" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book2.png" width = "100px" height = "300px" id="Matemática Aplicada à Economia e Administração" class="box-film"onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book3.png" width = "100px" height = "300px" id="Fundamentos de Física 1 - Mecânica" class="box-film"onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book4.png" width = "100px" height = "300px" id="Fundamentos de Física 2 - Gravitação Ondas e Termodinâmica" class="box-film"onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book5.png" width = "100px" height = "300px"id="Fundamentos de Física 3 - Eletromagnetismo" class="box-film"onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book6.png" width = "100px" height = "300px" id="Álgebra Linear" class="box-film"onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book7.png" width = "100px" height = "300px"id="Probabilidade e Estatística para Engenharia e Ciências" class="box-film"onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book8.png" width = "100px" height = "300px" id="Resistencia dos Materiais" class="box-film"onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book9.png" width = "100px" height = "300px" id="Mecânica dos Fluidos - Noções e Aplicações" class="box-film"onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book10.png" width = "100px" height = "300px" id="Fundamentos e Técnicas de Administração Financeira" class="box-film"onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="classificação">
+    <h4 id="humanas">Ciências humanas</h4>
+  </div>
+  <div class ="carousel-filmes">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book11.png" width = "100px" height = "300px" id="Guia Politicamente Incorreto da História do Brasil" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book12.png" width = "100px" height = "300px" id="Uma Breve História do Mundo" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book13.png" width = "100px" height = "300px" id="História da Riqueza do Homem" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book14.png" width = "100px" height = "300px" id="Rochas Magmáticas" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book15.png" width = "100px" height = "300px" id="A Arte da Política - a História Que Vivi" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book16.png" width = "100px" height = "300px" id="O Que é Política Nuclear" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book17.png" width = "100px" height = "300px" id="Política" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book18.png" width = "100px" height = "300px" id="Elementos de Economia Política" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book19.png" width = "100px" height = "300px" id="Guia Politicamente Incorreto da Filosofia" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href ="#bookShow"><img src="image/book20.png" width = "100px" height = "300px" id="Discurso do Método" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="classificação">
+    <h4 id="linguagens">Linguagens e Códigos</h4>
+  </div>
+  <div class ="carousel-filmes">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <a href = "#bookShow"><img src="image/book21.png" width = "100px" height = "300px" id="A Metamorfose" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href = "#bookShow"><img src="image/book22.png" width = "100px" height = "300px" id="Poemas Completos de Alberto Caeiro" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href = "#bookShow"><img src="image/book23.png" width = "100px" height = "300px" id="Iracema" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href = "#bookShow"><img src="image/book24.png" width = "100px" height = "300px" id="Senhora" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href = "#bookShow"><img src="image/book25.png" width = "100px" height = "300px" id="Como Dizer Tudo Em Inglês" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href = "#bookShow"><img src="image/book26.png" width = "100px" height = "300px" id="Como Dizer Tudo Em Francês" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href = "#bookShow"><img src="image/book27.png" width = "100px" height = "300px" id="Alemão Passo a Passo" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href = "#bookShow"><img src="image/book28.png" width = "100px" height = "300px" id="Fundamentos da Linguística Contemporânea" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href = "#bookShow"><img src="image/book29.png" width = "100px" height = "300px" id="Dicionário de Linguística e Gramática" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+      <div class="item">
+        <a href = "#bookShow"><img src="image/book30.png" width = "100px" height = "300px" id="O Quinze" class="box-film" onmouseover="showMe(this)" onmouseout="backMeToNormal(this)"></a>
+      </div>
+    </div>
+  </div>
+  <footer class= "container-fluid text-center bg-footer margin" id= "footer">
+    <p>COFerr development | github.com/COFerr</p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/b3d1ba0a2a.js" crossorigin="anonymous"></script>
+  <script src="javascript/setup.js"></script>
+</body>
+</html>
